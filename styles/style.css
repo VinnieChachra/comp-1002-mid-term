@@ -1,0 +1,85 @@
+h1 {
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 3.4em;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+
+
+body {
+    gap: 1em;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+header {
+    text-align: center;
+    width: 106%;
+    margin: 20px 0;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+}
+
+.body200 img {
+    float: left;
+    margin: 2%;
+}
+
+.bodycoffee img {
+    height: 300px;
+    width: 400px;
+}
+
+.header1 img {
+    width: 3em;
+    padding: 0.5em;
+
+}
+
+.bodycoffee {
+    position: relative;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+.text {
+    position: absolute;
+    top: 31%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 72% 28%;
+
+}
+
+h2 {
+    font-size: 43px;
+    font-weight: 200;
+
+}
+
+.body200 {
+    float: left;
+    width: 25%;
+    text-align: left;
+    font-size: smaller;
+}
+
+.body200 p {
+    margin-left: 2%;
+}
